@@ -1,3 +1,5 @@
+//SuggestionBox with faker-js for suggestions
+
 import { useState, useEffect } from "react";
 import { faker } from "@faker-js/faker";
 import { Link } from "react-router-dom";

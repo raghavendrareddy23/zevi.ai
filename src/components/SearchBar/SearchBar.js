@@ -1,3 +1,5 @@
+//created searchbar with toasted messages
+
 import React, { useState } from "react";
 import { FiSearch } from "react-icons/fi";
 import { ImCross } from "react-icons/im";
@@ -10,7 +12,7 @@ const SearchBar = ({ onFocusChange, suggestionBox }) => {
   const handleFocus = (event) => {
     event.preventDefault();
     if (searchString.length === 0 && !suggestionBox) {
-      toast.error("Please Input");
+      toast.error("Please enter the text....");
       return;
     }
 
