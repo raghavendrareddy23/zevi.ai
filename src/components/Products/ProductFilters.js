@@ -37,7 +37,7 @@ const ProductFilters = ({ getFilters }) => {
 
   useEffect(() => {
     getFilters(selectedFilters);
-  }, [selectedFilters]);
+  }, [selectedFilters, getFilters]);
 
   console.log(selectedFilters);
 
