@@ -1,3 +1,5 @@
+//pages for routing
+
 import React, { useState } from "react";
 import SearchBar from "../components/SearchBar/SearchBar";
 import SuggestionBox from "../components/SearchBar/SuggessionBox";
