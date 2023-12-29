@@ -1,3 +1,5 @@
+//Filters for search bar
+
 import { BsFillArrowDownCircleFill, BsFillArrowUpCircleFill } from "react-icons/bs";
 import { useState } from "react";
 
