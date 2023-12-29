@@ -1,3 +1,5 @@
+//Commited with filter applies for products like price, rating and brands
+
 import React, { useState } from "react";
 import { AiFillStar } from "react-icons/ai";
 import HeartOff from "../../assets/love.png";
