@@ -1,3 +1,5 @@
+//Commited with advance filters like price, rating and brands
+
 import React, { useState, useEffect } from "react";
 import Filter from "./Filter";
 
