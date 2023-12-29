@@ -5,7 +5,6 @@ import { faker } from "@faker-js/faker";
 import ProductFilterApply from "./ProductFilterApply";
 import Filters from "./ProductFilters";
 import NoResult from "../../assets/nodata.avif";
-import SearchBar from "../SearchBar/SearchBar";
 import { FiSearch } from "react-icons/fi";
 
 const Products = () => {
@@ -100,7 +99,6 @@ const Products = () => {
           </button>
         </form>
       </div>
-      <SearchBar className="border"/>
 
       <div className="flex flex-col md:flex-row p-4">
         <div className="md:w-1/6">
